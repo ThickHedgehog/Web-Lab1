@@ -5,6 +5,8 @@
 }
 
 body {
+    color: #d1d3e3;
+    background-color: #131517;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -19,42 +21,54 @@ body {
 
 .input_units {
     height: 50px;
-    background: #e7e7e7;
+    background: #131517;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
+    color: #d1d3e3;
 }
 
 input[type="submit"] {
     padding: 15px 30px;
     height: 50px;
-    background: #e7e7e7;
     border: none;
     border-radius: 1px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    margin: 1%;
+    background-color: #252e38;
+    color: #d1d3e3;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #2484f2;
 }
 
 input[type="submit"]:hover {
-    background: #4a4a4a;
+    background: #2285f5;
 }
 
 .input input[type="text"] {
     width: 300px;
     height: 50px;
     padding: 5px 10px;
-    background: #e7e7e7;
     border: none;
     border-radius: 1px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
+    background-color: #252e38;
+    color: #d1d3e3;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #2484f2;
 }
 
 .card {
     width: 50%;
+    color: #d1d3e3;
     margin: 50px auto;
 }
 
